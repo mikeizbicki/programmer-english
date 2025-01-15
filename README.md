@@ -1,3 +1,23 @@
+<!--
+create a software
+pytohn: no input()
+
+https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+"How to Write Mathematics" by Paul R. Halmos and "Mathematical Writing" by Donald E. Knuth
+https://www.gnu.org/software/diction/
+https://vale.sh/
+https://github.com/FusionAuth/fusionauth-site/blob/main/.github/workflows/vale.yml
+
+Formatting:
+https://web.cs.ucdavis.edu/~rogaway/papers/moral.html
+https://blog.cr.yp.to/20241028-surveillance.html
+https://blog.cr.yp.to/
+https://danluu.com/nothing-works/
+
+Classic Essays:
+https://www.gnu.org/philosophy/right-to-read.en.html
+-->
+
 # Programmer English
 
 Programmers have developed a dialect of English distinct from [standard American English](https://en.wikipedia.org/wiki/Standard_American_English).
@@ -73,11 +93,22 @@ That is, they are read as words and not letters.
         These abbreviations contain vowels, but the natural pronounciation does not correspond to an English word, and so the letters are pronounced to avoid ambiguity.
 
 Sometimes words are pronounced contrary to standard pronunciation rules of English for etymological reasons.
+Sometimes words are pronounced contrary to standard pronunciation rules as an explicit [shibboleth](https://en.wikipedia.org/wiki/Shibboleth).
+Sometimes the reason is a mixture of both.
+
+<!-- logit != lojit; nginx, gunicorn, pypi, "insights", outputted/output ; AdaBoost vs ADA-->
 
 1. Regex is pronounced with a hard G.
 
     (The word "regex" is a shortened form of *regular expressions*, and "regular" is pronounced with a hard G.
     The temptation to use a soft g is due to the fact that [most English words of Latin/Greek descent that have a G followed by an E use a soft E, combined with the fact that most techincal words in English come from Latin/Greek.)
+
+1. Logit is pronounced with a soft g and short i.  (Like "logic with a t" not "Lowe git".)
+
+    (The word [logit](https://en.wiktionary.org/wiki/logit) is a [portmantaeux](https://en.wikipedia.org/wiki/Blend_word) of the words *logistic* and *bit*.
+    It should therefore be pronounced with the same sounds as logistic. 
+    The temptation to use a hard g/long o comes from the standard English pronunciation rules.)
+    <!-- see how legit is pronounced -->
 
 1. GNU is pronounced with a hard G.
 
@@ -87,6 +118,8 @@ Sometimes words are pronounced contrary to standard pronunciation rules of Engli
     The GNOME desktop [is pronounced with a hard G](https://stuff.mit.edu/afs/athena/astaff/project/aui/html/pronunciation.html) because the G in GNOME stands for GNU.
 
     The command-line plotting software gnuplot is [not affiliated not affiliated with GNU](http://www.gnuplot.info/faq/faq.html#x1-70001.2) and so the G is silent.
+
+    The gunicorn webserver is not affiliated with GNU but [still pronounced with a hard G](https://github.com/benoitc/gunicorn/issues/139) because the G stands for green.
 
 1. Latex is pronounced "La-tech" and not "La-techs".
 
@@ -115,27 +148,6 @@ Programmers treat mathematical notation with respect and pronounce it properly.
     See [this fun song](https://www.youtube.com/watch?v=749JoaGOCcg) for correct pronunciation examples.
 
 ## Lexicon
-
-<!--
-1. Incorrect: In sample error greater than generalization error means **most likely** overfitting.
-
-    > **NOTE:**
-    > This is true by definition.
-    > So it is not "most likely" true or "reliably" true.
-    > It does not "tend to" be true.
-
-    Correct: A large VC dimension compared to the number of data points means we are **most likely** overfitting.
-
-1. Incorrect: $\bar {\bar P}$ is **defined** to have top eigenvalue 1
-
-    Correct: $\bar {\bar P}$ is **defined** to be $\alpha \bar P + (1-\alpha) \mathbb e^T \mathbb v$.
-
-    Correct: One **property** of $\bar {\bar P}$ is that it has top eigenvalue 1.
-
-1. Incorrect: The power method **helps us calculate** the top eigenvector.
-
-    Correct: The power method **calculates** the top eigenvector.
--->
 
 Words have precise meanings, and their use should reflect those precise meanings.
 
@@ -167,6 +179,14 @@ Words have precise meanings, and their use should reflect those precise meanings
     > Incorrect: The parameter to python's `print` function can be any **random** string.
     >
     > Correct: The parameter to python's `print` function can be any **arbitrary** string.
+
+<!--
+Non-technical jargon should never be used.
+
+1. Programmers rarely verb nouns.
+    We do not give an "ask"
+    When we hear these phrases, [it's definitely an annoy](https://news.ycombinator.com/item?id=42714775#42716628).
+-->
 
 Mistakes with big-Oh notation are extremely common.
 They are a sure sign that the author is an amateur and not to be taken seriously.
