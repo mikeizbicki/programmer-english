@@ -26,6 +26,8 @@ This document lists some features of this dialect.
 By recognizing these features you can better identify "true programmers",
 and by adopting these features into your own language use you can be perceived by others to be a "true programmer".
 -->
+It is similar in spirit to the [jargon file](http://www.catb.org/~esr/jargon/html/index.html),
+but more modern.
 
 This document covers:
 
@@ -183,9 +185,21 @@ Words have precise meanings, and their use should reflect those precise meanings
 <!--
 Non-technical jargon should never be used.
 
-1. Programmers rarely verb nouns.
+1. Programmers avoid corporate speak.
+
+    1. Words like 
     We do not give an "ask"
     When we hear these phrases, [it's definitely an annoy](https://news.ycombinator.com/item?id=42714775#42716628).
+
+1. Programmers adapt technical jargon into non-technical contexts.
+    
+    1. The word orthogonal means "unrelated".
+
+        > My desire for pizza is orthogonal to the. 
+
+    1. The word *non-trivial* means very hard.
+
+        > Raising a child is non-trivial.
 -->
 
 Mistakes with big-Oh notation are extremely common.
