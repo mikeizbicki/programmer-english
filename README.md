@@ -110,7 +110,8 @@ Sometimes the reason is a mixture of both.
     (The word [logit](https://en.wiktionary.org/wiki/logit) is a [portmantaeux](https://en.wikipedia.org/wiki/Blend_word) of the words *logistic* and *bit*.
     It should therefore be pronounced with the same sounds as logistic. 
     The temptation to use a hard g/long o comes from the standard English pronunciation rules.)
-    <!-- see how legit is pronounced -->
+
+    The standard American English pronunciation of "legit" follows this same reasoning as an abbreviated form of the word "legitimate".
 
 1. GNU is pronounced with a hard G.
 
