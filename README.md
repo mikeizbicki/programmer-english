@@ -183,24 +183,22 @@ Words have precise meanings, and their use should reflect those precise meanings
     > Correct: The parameter to python's `print` function can be any **arbitrary** string.
 
 <!--
-Non-technical jargon should never be used.
-
 1. Programmers avoid corporate speak.
 
     1. Words like 
     We do not give an "ask"
     When we hear these phrases, [it's definitely an annoy](https://news.ycombinator.com/item?id=42714775#42716628).
+-->
 
 1. Programmers adapt technical jargon into non-technical contexts.
     
     1. The word orthogonal means "unrelated".
 
-        > My desire for pizza is orthogonal to the. 
+        > My desire for pizza is orthogonal to my desire to play video games. 
 
     1. The word *non-trivial* means very hard.
 
         > Raising a child is non-trivial.
--->
 
 Mistakes with big-Oh notation are extremely common.
 They are a sure sign that the author is an amateur and not to be taken seriously.
