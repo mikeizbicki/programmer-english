@@ -98,20 +98,20 @@ Sometimes words are pronounced contrary to standard pronunciation rules of Engli
 Sometimes words are pronounced contrary to standard pronunciation rules as an explicit [shibboleth](https://en.wikipedia.org/wiki/Shibboleth).
 Sometimes the reason is a mixture of both.
 
-<!-- logit != lojit; nginx, gunicorn, pypi, "insights", outputted/output ; AdaBoost vs ADA-->
+<!-- nginx, gunicorn, pypi, "insights", outputted/output ; AdaBoost vs ADA-->
 
 1. Regex is pronounced with a hard G.
 
     (The word "regex" is a shortened form of *regular expressions*, and "regular" is pronounced with a hard G.
-    The temptation to use a soft g is due to the fact that [most English words of Latin/Greek descent that have a G followed by an E use a soft E, combined with the fact that most techincal words in English come from Latin/Greek.)
+    The temptation to use a soft g is due to the fact that [most English words of Latin/Greek descent that have a G followed by an E use a soft E](https://english.stackexchange.com/questions/204231/should-g-followed-by-e-and-i-be-pronounced-with-a-soft-or-hard-g), combined with the fact that most techincal words in English come from Latin/Greek.)
 
 1. Logit is pronounced with a soft g and short i.  (Like "logic with a t" not "Lowe git".)
 
     (The word [logit](https://en.wiktionary.org/wiki/logit) is a [portmantaeux](https://en.wikipedia.org/wiki/Blend_word) of the words *logistic* and *bit*.
-    It should therefore be pronounced with the same sounds as logistic. 
+    It should therefore be pronounced with the same sounds as logistic.
     The temptation to use a hard g/long o comes from the standard English pronunciation rules.)
 
-    The standard American English pronunciation of "legit" follows this same reasoning as an abbreviated form of the word "legitimate".
+    The standard American English pronunciation of "legit" follows this same reasoning as an abbreviated form of the word "legitimate". Notice that you do not use a hard G when pronouncing "legit", and if you do it sounds like you don't actually know what the word legit means.
 
 1. GNU is pronounced with a hard G.
 
@@ -205,7 +205,7 @@ Mistakes with big-Oh notation are extremely common.
 They are a sure sign that the author is an amateur and not to be taken seriously.
 
 1. Every computer scientist should be familiar with $O$, $\Omega$ and $\Theta$ notation.
-    This means having the definitions memorized and being able to apply the definitions with easy to simplify functions.
+    This means having the definitions memorized and being able to apply the definitions with ease to simplify functions.
     [Wikipedia has an excellent summary.](https://en.wikipedia.org/wiki/Big_O_notation#Family_of_Bachmann%E2%80%93Landau_notations)
 
 1. A common mistake is to assume that big-Oh notation is only used for the runtimes of algorithms.
@@ -238,6 +238,7 @@ Examples include: placing punctuation outside of quotation marks, using YYYY-MM-
 Note the careful placement of the period in the last sentence above.
 Also note that this sentence and the previous were written in the 2nd person imperative tense.
 Programmers expect the reader to participate actively in reading and commonly command their reader to perform certain tasks.
+Remember this!
 
 ### Markdown
 
@@ -398,7 +399,8 @@ Concrete techniques for making your writing easy to understand include:
 1. Use few words, not many words.
 1. Use little words, not big words.
     1. Prefer "use" to "utilize".
-    1. Prefer [Germanic words to French/Latin words](http://www.csun.edu/science/ref/language/german-latin-english.html).
+    1. More generally, prefer [Germanic words to French/Latin words](http://www.csun.edu/science/ref/language/german-latin-english.html).
+
 1. Focus on examples.
     1. It is also important to include "general principles" and "high level ideas".
     1. But they should be explained via examples.
