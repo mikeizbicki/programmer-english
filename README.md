@@ -47,7 +47,7 @@ That is, they are read as words and not letters.
 1. RAG is pronounced "rag" not "R-A-G".
 
     > **NOTE:**
-    > The word "rag" has only one sylable and is faster/easier to pronounce than the 3-sylable "R-A-G".
+    > The word "rag" has only one syllable and is faster/easier to pronounce than the 3-syllable "R-A-G".
     > The practice of pronouncing abbreviations as acronyms stems from the programmer's desire for efficiency in all things.
 
 1. ICLR is pronounced "I clear".
