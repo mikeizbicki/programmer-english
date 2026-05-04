@@ -307,7 +307,7 @@ All python programmers should follow [PEP8: Style Guide for Python Code](https:/
 
 1. Automated tools like `flake8` should be used to verify compliance.
 
-    It is okay to manually override some of the rules if have a compelling reason.
+    It is okay to manually override some of the rules if you have a compelling reason.
     For example, it is very common to not obey the 80 character per line limit.
 
 All functions should have test cases.
@@ -405,3 +405,4 @@ Concrete techniques for making your writing easy to understand include:
     1. It is also important to include "general principles" and "high level ideas".
     1. But they should be explained via examples.
     1. LLMs learn only through examples; humans learn "mostly" through examples.
+
