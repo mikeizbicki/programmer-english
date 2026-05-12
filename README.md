@@ -160,7 +160,7 @@ Words have precise meanings, and their use should reflect those precise meanings
     > 
     > Correct: I used VSCode to write the python **code** for my website.
 
-    "Code" is not a collective noun when it is used as a synonym for creditials / passwords.
+    "Code" is not a collective noun when it is used as a synonym for credentials / passwords.
 
     > Correct: I entered my login **codes** for the bank.
     > 
