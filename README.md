@@ -67,6 +67,8 @@ That is, they are read as words and not letters.
     > The filename `test.py` is normally read "test dot pie" and not "test dot pee why".
     -->
 
+1. JSON sounds like "Jason" and YAML rhymes with camel.
+
 1. SQL is pronounced "sequel" and not "ess-que-ell".
 
     > **NOTE:**
@@ -91,8 +93,8 @@ That is, they are read as words and not letters.
     1. HTML is pronounced "H-T-M-L" and CSS is pronounced "C-S-S".
         Notice there are no vowels in these names that allow them to be shortened.
 
-    1. IP is pronounced "I-P" and ISO is pronounced "I-S-O".
-        These abbreviations contain vowels, but the natural pronounciation does not correspond to an English word, and so the letters are pronounced to avoid ambiguity.
+    1. IP is pronounced "I-P".
+        The abbreviation contains a vowel, but the natural pronounciation does not correspond to an English word, and so the letters are pronounced to avoid ambiguity.
 
 Sometimes words are pronounced contrary to standard pronunciation rules of English for etymological reasons.
 Sometimes words are pronounced contrary to standard pronunciation rules as an explicit [shibboleth](https://en.wikipedia.org/wiki/Shibboleth).
@@ -168,7 +170,9 @@ Words have precise meanings, and their use should reflect those precise meanings
 
 1. The word "literally" should not be used metaphorically.
 
-    > Incorect: I literally spent one thousand hours on the homework assignment.
+    > Incorect: I **literally** spent one thousand hours on the homework assignment.
+    >
+    > Correct: Programmers **literally** never use the word "literally" metaphorically.
 
 1. The word "exponentially" should only be used in reference to functions that actually grow exponentially.
 
@@ -183,23 +187,30 @@ Words have precise meanings, and their use should reflect those precise meanings
     >
     > Correct: The parameter to python's `print` function can be any **arbitrary** string.
 
-<!--
 1. Programmers avoid corporate speak.
+    We value simple language.
 
-    1. Words like 
-    We do not give an "ask"
-    When we hear these phrases, [it's definitely an annoy](https://news.ycombinator.com/item?id=42714775#42716628).
--->
+    > Incorrect: I have an **ask** for you, and I'd love your **learnings** on the **spend**.
+    >
+    > Correct: Tell me what you **learned** about what we **spent**.
+
+    Most bad corporate speak involves using verbs as nouns.
+    When we hear these phrases, [it's definitely an annoy](https://news.ycombinator.com/item?id=42714775#42716628) because it hides the agent of the action in passive language.
+
+    Programmers often do the opposite and use nouns as verbs.
+    (That is, we *verb* the noun.)
+    We *ssh* into a machine, *grep* a file, *google* an error message, and *ping* a friend.
+    This is fine because the verbed noun phrase is shorter than the phrase it replaces and adds agency into the sentence.
 
 1. Programmers adapt technical jargon into non-technical contexts.
     
     1. The word orthogonal means "unrelated".
 
-        > My desire for pizza is orthogonal to my desire to play video games. 
+        > My desire for pizza is orthogonal to my desire to play video games.
 
-    1. The word *non-trivial* means very hard.
+    1. The word *non-trivial* means very hard and/or very important.
 
-        > Raising a child is non-trivial.
+        > The president of the United States has a non-trivial job.
 
 Mistakes with big-Oh notation are extremely common.
 They are a sure sign that the author is an amateur and not to be taken seriously.
